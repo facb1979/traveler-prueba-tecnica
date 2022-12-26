@@ -25,17 +25,14 @@ Ubicación: diagramas/3. Clases.
 En este diagrama se la distribución de directorios para organizar el código fuente, según lo planteado para la arquitectura limpia. 
 Ubicación: diagramas/4. Codigo.
 
-🏁 How To Start
-Install Java 11: brew cask install corretto
-Set it as your default JVM: export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home'
-Clone this repository: git clone https://github.com/CodelyTV/java-ddd-skeleton.
-Bring up the Docker environment: make up.
-Execute some Gradle lifecycle tasks in order to check everything is OK:
-Create the project JAR: make build
-Run the tests and plugins verification tasks: make test
-Start developing!
+💡 5. Diagrama de Despliegue.
+En este diagrama presenta la distribución y uso de servicios de AWS para desplegar la solución. En un bucket de S3 se desplega la parte Front elaborada en Angular u otro framework en javascript, en la parte de EKS se desplegan los microservicios desarrollados en java. 
+Ubicación: diagramas/5. Despliegue.
 
-☝️ How to update dependencies
-Gradle (releases): ./gradlew wrapper --gradle-version=WANTED_VERSION --distribution-type=bin
+💡 6. Multitenant.
+En este diagrama presenta la distribución para la solución como SaaS y atender el requerimiento de multitenant y poder comercializarla. 
+Ubicación: diagramas/6. Multitenant.
 
-💡 Related repositories
+☝️ Video
+En la siguiente ubicación se encuentra el video que explica la solución planteada.
+Ubicación: video/
