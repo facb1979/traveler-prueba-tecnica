@@ -7,21 +7,23 @@
 ⚡ A continuación se explican los artefactos que componen la prueba técnia - Rental Cars
 
 
-💡 Diagrama de Contexto.
+💡 1. Diagrama de Contexto.
 En este diagrama se presentan los módulos principales que debe tener la solución de e-commerce a construir para Rental Cars.
 Ubicación: diagramas/1. Contexto.
 
-💡 Diagrama de Arquitectura Limpia.
+💡 2. Diagrama de Arquitectura Limpia.
 En este diagrama se presentan las capas en las que se plantea dividir la arquitectura de software de la solución a construir. 
 Se basa en una arquitectura hexagonal, con 3 capas Infraestructura -> Casos de Uso -> Dominio (Negocio). Esto aplica tanto para 
 la parte Front como para la parte Backend.
 Ubicación: diagramas/2. Clean-ARQ.
 
-💡 Diagrama de Clases.
-En este diagrama se presentan las clases a nivel general para ir organizando el código de la solución. 
-Se basa en una arquitectura hexagonal, con 3 capas Infraestructura -> Casos de Uso -> Dominio (Negocio). Esto aplica tanto para 
-la parte Front como para la parte Backend.
-Ubicación: diagramas/2. Clean-ARQ.
+💡 3. Diagrama de Clases.
+En este diagrama se presentan las clases y paquetes a nivel general/genérico para ir organizando el código de la solución. 
+Ubicación: diagramas/3. Clases.
+
+💡 4. Organización del Código Fuente.
+En este diagrama se la distribución de directorios para organizar el código fuente, según lo planteado para la arquitectura limpia. 
+Ubicación: diagramas/4. Codigo.
 
 🏁 How To Start
 Install Java 11: brew cask install corretto
