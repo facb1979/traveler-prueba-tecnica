@@ -35,4 +35,4 @@ Ubicación: diagramas/6. Multitenant.
 
 ☝️ Video
 En la siguiente ubicación se encuentra el video que explica la solución planteada.
-Ubicación: video/
+Ubicación: https://drive.google.com/file/d/1pfd2kbmwrZV1EI8b0Lc7bvzG6yJO3DJp/view?usp=share_link
